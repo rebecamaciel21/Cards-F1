@@ -97,22 +97,6 @@ main .cards-container {
     animation: brilho 2s;
 }
 
-@keyframes brilhoSuave {
-    0% {
-        left: -120%;
-        opacity: 0;
-    }
-
-    20% {
-        opacity: 1;
-    }
-
-    100% {
-        left: 120%;
-        opacity: 0;
-    }
-}
-
 @keyframes brilho{
     to{
         transform: translateX(100%);
